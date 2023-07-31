@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url(https://img.freepik.com/free-vector/realistic-blurry-st-patrick-s-day-wallpaper_23-2148830147.jpg?w=740&t=st=1690822996~exp=1690823596~hmac=206e4508c0799a76a6201b78823eba91c1740eefb76c6de4598c8cc8205c1701);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.form {
+  background: #09c60f;
+  max-width: 400px;
+  width: 90%;
+  padding: 20px;
+  box-shadow: 3px 4px 10px #016a06;
+}
+
+.form h1 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.form-control {
+  margin-bottom: 20px;
+}
+
+.form-control label {
+  color: #fff;
+  font-size: 18px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-control input {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+}
+
+.form-control input:focus {
+  border: 2px solid #0b890b;
+}
+
+.form-control input[type="submit"] {
+  color: #fff;
+  background: #001800;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.form-control small {
+  color: #026002;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}

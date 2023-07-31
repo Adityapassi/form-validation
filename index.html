@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Form Validation</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+   <form class="form" onsubmit="return validation(event)">
+    <h1>Registation Form</h1>
+      <div class="form-control">
+        <label for="name">Name</label>
+        <input id="name" type="text" name="name" placeholder="Name">
+        <small></small>
+      </div>
+     <div class="form-control">
+        <label for="email">Email</label>
+        <input id="email" type="email" required name="email" placeholder="Email">
+        <small></small>
+      </div>
+     <div class="form-control">
+        <label for="password">Password</label>
+        <input id="password" type="password" name="password" placeholder="Password">
+        <small></small>
+      </div>
+     <div class="form-control">
+        <label for="confirm_password">Confirm Password</label>
+        <input id="confirm_password" type="password" name="password" placeholder="Confirm Password">
+        <small></small>
+      </div>
+    <div class="form-control">
+        <input id="submit" type="submit" >
+    </div>
+     
+   </form>
+
+  <script src="app.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+ 
+</body>
+
+</html>
